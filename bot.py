@@ -28,7 +28,7 @@ async def echo_message(msg: types.Message):
 
     if 'проверить изменения' in msg.text:
         # url = 'http://fkn.omsu.ru/academics/schedule1.htm'
-        supplement = 'http://fkn.univer.omsk.su/academics'
+        supplement = 'http://fkn.univer.omsk.su/academics/'
         # page_global = requests.get(url)
         # soup_global = BeautifulSoup(page_global.content, "lxml")
         # soup_global_str = str(BeautifulSoup(page_global.content, "lxml"))
