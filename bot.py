@@ -28,13 +28,13 @@ async def echo_message(msg: types.Message):
 
     if 'проверить изменения' in msg.text:
         # url = 'http://fkn.omsu.ru/academics/schedule1.htm'
-        supplement = 'http://fkn.omsu.ru/academics/'
+        supplement = 'http://fkn.univer.omsk.su/academics'
         # page_global = requests.get(url)
         # soup_global = BeautifulSoup(page_global.content, "lxml")
         # soup_global_str = str(BeautifulSoup(page_global.content, "lxml"))
         # wrapper_links = soup_global.find("div", class_='main-content-inner')
 
-        list_links = ["Schedule/schedule1_2.htm", "Schedule/schedule2_2.htm", "Schedule/schedule3_2.htm", "Schedule/schedule4_2.htm"]
+        list_links = ["Schedule/schedule1_1.htm", "Schedule/schedule2_1.htm", "Schedule/schedule3_1.htm", "Schedule/schedule4_1.htm"]
         for array_links in list_links:
     
             link = supplement + array_links
